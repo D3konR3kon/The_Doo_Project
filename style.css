@@ -18,9 +18,12 @@ background: linear-gradient(43deg, rgba(1,41,19,1) 0%, rgba(0,0,0,1) 72%, rgba(8
         overflow: hidden;
         height: 100%;
     }
-    a:visited, a{
+    .nav-container{
+        border-bottom: 1px solid #acacacac;
+    }
+    .nav-link:visited, .nav-link{
         color: #acacacac;
-        font-size: ;
+        font-size: 18px ;
         text-decoration: none;
     }
     .nav-link:focus, .nav-link:hover {
@@ -88,6 +91,7 @@ background: linear-gradient(43deg, rgba(1,41,19,1) 0%, rgba(0,0,0,1) 72%, rgba(8
         }
     .card{
         background-color: transparent;
+        border: none;
     }
     .card-text{
         
