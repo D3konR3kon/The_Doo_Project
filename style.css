@@ -1,25 +1,43 @@
 
     body{
-       
+        background: rgb(1,41,19);
+        background: linear-gradient(43deg, rgba(1,41,19,1) 0%, rgba(0,0,0,1) 72%, rgba(83,1,18,1) 100%);
     }
     main{
+        padding: 0;
+        margin: 0;
+    }
+    .nav-container{
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: auto;
+        background: transparent!important;
+        border-bottom: 1px solid #acacacac;
+    }
+    #album{
+   
+
+    }
+    .bg-image{
         background-image: url("/images/bg-image-3.jpg");
         background-size:cover;
         background-position: 50%;
         background-repeat: no-repeat;
     }
-    .album{
-        background: rgb(1,41,19);
-background: linear-gradient(43deg, rgba(1,41,19,1) 0%, rgba(0,0,0,1) 72%, rgba(83,1,18,1) 100%);
+    .height-850{
+        height: 850px;
+        display: flex;
+        align-items: center;
     }
-    #bodyOverlay{
+    .bodyOverlay{
         background: rgba(0, 0, 0, 0.7);
        
         overflow: hidden;
         height: 100%;
     }
     .nav-container{
-        border-bottom: 1px solid #acacacac;
+        
     }
     .nav-link:visited, .nav-link{
         color: #acacacac;
@@ -42,6 +60,19 @@ background: linear-gradient(43deg, rgba(1,41,19,1) 0%, rgba(0,0,0,1) 72%, rgba(8
         padding: 0 20px;
         font-size: 14px;
         font-weight: 500;
+    }
+    #darkmode{
+        border: 0;
+        padding: 1px;
+        margin-left: 10px;
+        width: 40px;
+        background: #fb5343;
+        justify-content: center;
+        height: 40px;
+        border-radius: 100%;
+    }
+    .separator{
+        color: #acacacac;
     }
     #sbtn{
         border: 2px solid #acacacac;
@@ -100,7 +131,8 @@ background: linear-gradient(43deg, rgba(1,41,19,1) 0%, rgba(0,0,0,1) 72%, rgba(8
         line-height: 1.67;
     }
   
-  .navbar-nav{
+  .port-imgs{
+        border-radius: 0.5em;
      
   }
 
